@@ -1,11 +1,23 @@
-# Olibrary
+# Olib
 
-OLibrary 는 java 프로젝트를 진행할 경우 유용하게 쓰일 수 있는 참고용 라이브러리 모음 입니다.
+OLib 는 java 프로젝트를 진행할 경우 유용하게 쓰일 수 있는 Tool 및 Library 입니다.
 
 ## Features
 
+* Api Testing Tools
+* Server Agent Management Tools
+* System Log Search Tools
 * Thread pool service (java 1.8+)
 * exception, json, net utils
+
+## Api Testing Tools DEMO
+![api tool](https://cloud.githubusercontent.com/assets/8652687/21512017/78661c64-cceb-11e6-9883-9262769fd419.png)
+
+## Server Agent Management Tools DEMO
+![agentmanager](https://cloud.githubusercontent.com/assets/8652687/21512026/89b4d08c-cceb-11e6-9d6e-1886a09e132b.jpg)
+
+## System Log Search Tools DEMO
+![log tool](https://cloud.githubusercontent.com/assets/8652687/21512008/58e7a92a-cceb-11e6-9f15-b46245b6046d.png)
 
 ## Thread Pool Service Example
 
@@ -51,24 +63,18 @@ start : test-pool-testThread4-0
 end : test-pool-testThread4-0
 ```
 
-## Utils dependency
+## dependencys
 
+* spring-boot
+* gentelella
+* angularjs
+* jquery
+* bootstrap
+* font-awesome
+* json-simple
+* httpclient
+* reflections
+* paranamer
+* unirest
+* axis2
 
-### With Maven
-```xml
-<dependency>
-		<groupId>com.googlecode.json-simple</groupId>
-		<artifactId>json-simple</artifactId>
-		<version>1.1.1</version>
-</dependency>
-<dependency>
-		<groupId>javax.servlet</groupId>
-		<artifactId>javax.servlet-api</artifactId>
-		<version>3.1.0</version>
-</dependency>
-<dependency>
-		<groupId>org.apache.httpcomponents</groupId>
-		<artifactId>httpclient</artifactId>
-		<version>4.5.2</version>
-</dependency>
-```
