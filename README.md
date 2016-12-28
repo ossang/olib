@@ -63,7 +63,7 @@ start : test-pool-testThread4-0
 end : test-pool-testThread4-0
 ```
 
-## dependencys
+## dependencies
 
 * spring-boot
 * gentelella
