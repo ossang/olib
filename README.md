@@ -6,7 +6,7 @@ OLib 는 java 프로젝트를 진행할 경우 유용하게 쓰일 수 있는 To
 * olib-framework-app : 어플리케이션 패키지 
 * olib-framework-core : 어플리케이션에서 사용될 공통 library 
 * olib-app-admin : naver,daum ad openapi test tool, 시스템 로그 분석 도구
-* olib-app-agent : 서버 매니저 관리도
+* olib-app-agent : 서버 매니저 관리도구 
 * olib-app-threadpool : thread pool 서비스 모듈
 
 ## Features
